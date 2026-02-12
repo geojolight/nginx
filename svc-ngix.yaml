@@ -23,6 +23,6 @@ spec:
     protocol: TCP
     targetPort: https
   selector:
-    app.kubernetes.io/name: nginx
+    app: nginx
   sessionAffinity: None
   type: LoadBalancer
